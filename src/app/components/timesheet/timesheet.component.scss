@@ -5,3 +5,26 @@ h2 {
 .cards {
     margin: auto;
 }
+
+mat-form-field {
+    width: calc(100% - 40px);
+}
+
+mat-card {
+    margin: 20px;
+    padding: 20px;
+}
+
+.hours {
+    min-height: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hours-input {
+    max-width: 75px;
+    margin-left: 15px;
+    text-align: center;
+}
